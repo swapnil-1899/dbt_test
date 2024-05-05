@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: dim_music_tracks
+    description: >
+      This model is developed to join tracks with genres, albums, artists and media_types 
+
+  - name: dim_music_playlists
+    description: >
+      This model is developed to join playlists with tracks, genres, albums, artists and media_types 
+
+  - name: fct_music_sales
+    description: >
+      This model is developed to get all information using intermediate models 
+
